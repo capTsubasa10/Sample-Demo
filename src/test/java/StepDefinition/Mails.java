@@ -6,6 +6,7 @@ public class Mails {
 
 	@Given("Load the application")
 	public void load_the_application() {
+		System.out.println("Mail Search");
 
 	}
 
