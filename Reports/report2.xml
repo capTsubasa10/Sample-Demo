@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.397" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="validating features of the ABC web application." name="Mail Inputs based on valid password and valid username" time="0.05">
+<system-out><![CDATA[
+Given Load the application..................................................passed
+When provide the valid inputs in username and password......................passed
+And Click the ok button.....................................................passed
+Then User is able to use the mail...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validating features of the ABC web application." name="Mail Inputs based on invalid password and valid username" time="0.008">
+<system-out><![CDATA[
+Given Load the application..................................................passed
+When provide the inputs in username and in valid password...................passed
+And Click the ok button.....................................................passed
+Then User is able to use the mail...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="validating features of the ABC web application." name="Mail Inputs based on valid password and invalid username" time="0.007">
+<system-out><![CDATA[
+Given Load the application..................................................passed
+When provide the inputs in invalid username and password....................passed
+And Click the ok button.....................................................passed
+Then User is able to use the mail...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
